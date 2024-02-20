@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements RecognitionListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textViewResults = (TextView)findViewById(R.id.textViewResults);
+        textViewResults = findViewById(R.id.textViewResults);
 
         requestRecordAudioPermission();
     }
